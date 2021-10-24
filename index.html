@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Telegram</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="contact-block">
+
+        <button class="contact-button">
+            <div class="contact-icon" style="background-color: #b02654"></div>
+            <div class="contact-name">Арбуз Арсеньевич</div>
+            <div class="contact-last-msg"></div>
+        </button>
+
+    </div>
+
+    <div class="chat-block">
+
+        <div class="chat-upper-line">
+            <div class = "chat-upper-line-name">Арбуз Арсеньевич</div>
+        </div>
+
+        <div class="chat-text-block">
+
+        </div>
+
+        <form name="chat-msg-input">
+            <input class="chat-msg-input" name="msg-area" placeholder="Введите сообщение" type="text" size="20">
+            <input class="chat-msg-submit" onclick="sendMessage()" name="msg-submit" type="button" value="Отправить сообщение">
+        </form>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
